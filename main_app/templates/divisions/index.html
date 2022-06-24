@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %} {% block content %}
+
+<h1>Valley FC - Division Teams</h1>
+
+{% for division in divisions %}
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ division.name }}</span>
+    <p>Age: {{ division.age }}</p>
+    <p>Roster Size: {{ division.roster }} </p>
+    <p>Head Coach: {{ division.hcoach }}</p>
+    <p>Assistant Coach: {{ division.acoach }}</p>
+  </div>
+</div>
+{% endfor %} {% endblock %}

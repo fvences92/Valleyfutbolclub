@@ -12,6 +12,12 @@ main {
 
 .page-footer {
   padding-top: 0;
-  font-size: 18px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(65, 0, 0);
+}
 
+nav {
+  background-color: rgb(65, 0, 0);
+  
 }
