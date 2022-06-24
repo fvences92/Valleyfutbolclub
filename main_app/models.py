@@ -10,5 +10,5 @@ class Division:
         self.acoach = acoach
 
 Divisions = [
-  Division('23s', '2012-2013', '14', 'Freddy', 'Ian'),
+  Division('23', '2012-2013', '14', 'Wiz Kalifa', 'Kid Cudi'),
 ]
